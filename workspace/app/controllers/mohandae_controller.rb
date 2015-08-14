@@ -1,0 +1,2 @@
+class MohandaeController < ApplicationController
+end

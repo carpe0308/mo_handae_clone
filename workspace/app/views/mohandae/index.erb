@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>모한대?! | 소중규모 문화컨텐츠 플랫폼</title>
+
+        <link href="/css/font-awesome.css" rel="stylesheet">
+        <link href="/css/simple-line-icons.css" rel="stylesheet">
+        <link href="/css/fullscreen-slider.css" rel="stylesheet">
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="/css/app.css" rel="stylesheet">
+
+    </head>
+    
+    <body class="notransition no-hidden">
+
+        <!-- Hero -->
+
+        <div id="hero-container">
+            <!--이미지 혹은 동영상 찾아서 넣어야함, 충분히 에어비엔비처럼 동영상 가능-->
+            <ul class="cb-slideshow">
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+            
+            <div class="home-header">
+                <!--우리 로고로 바꿀것/css에 들어가 있음-->
+                <div class="home-logo osLight"><span class="fa fa-home"></span> LOGOgogo</div>
+                <a href="#" class="home-navHandler visible-xs"><span class="fa fa-bars"></span></a>
+                <div class="home-nav">
+                    <ul>
+                        <!--signup sign in 페이지로 연결 시켜줘야함-->
+                        <!--맨위에 메뉴 가운데 정렬 하기 글자 크기도 좀더 키워야 할듯-->
+                        <li><a href="#" data-toggle="modal" data-target="#signup">회원가입</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#signin">로그인</a></li>
+                        <!--메뉴 넣을 것 추가-->
+                        <li><a href="/mohandae/whoweare">뭐한대?!</a></li>
+                        <li><a href="/mohandae/artist">단체정보</a></li>
+                        <li><a href="/mohandae/show">공연정보</a></li>
+                        <li><a href="/mohandae/community">커뮤니티</a></li>
+                        <li><a href="add.html" class="btn btn-green">메뉴 버튼 다 눌러보세요</a></li>
+                    </ul>
+                    
+ 
+                </div>
+            </div>
+            
+            <!--맨위 사진 동영상 위에 글 수정-->
+            <div class="home-caption">
+                <div class="home-title">뒤에 동영상 꼭 넣고싶다</div>
+                <div class="home-subtitle">할말 작은 제목</div>
+                <a href="#" class="btn btn-lg btn-black"> 빼도됨</a>
+            </div>
+            
+            <div class="search-panel">
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                        <!--검색조건1-->
+                        <input type="text" class="form-control" id="city" placeholder="검색조건1" autocomplete="off">
+                    </div>
+                    
+                    <div class="form-group">
+                        <!--검색조건2-->
+                        <input type="text" class="form-control" id="city" placeholder="검색조건2" autocomplete="off">
+                    </div>
+                    
+                        <!--검색조건3-->
+                    <div class="form-group hidden-xs adv">
+                        <a href="#" data-toggle="dropdown" class="btn btn-white dropdown-toggle">
+                            <span class="dropdown-label">드랍다운도 가능</span> <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-select">
+                            <li class="active"><input type="radio" name="bedno" checked="checked"><a href="#">드랍다운도 가능</a></li>
+                            <li><input type="radio" name="bedno"><a href="#">1</a></li>
+                            <li><input type="radio" name="bedno"><a href="#">2</a></li>
+                            <li><input type="radio" name="bedno"><a href="#">3</a></li>
+                            <li><input type="radio" name="bedno"><a href="#">4</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!--체크박스-->
+                    <div class="form-group hidden-xs adv">
+                        <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> 체크박스1</label></div>
+                    </div>
+                    <div class="form-group hidden-xs adv">
+                        <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> 체크박스2</label></div>
+                    </div>
+                    <div class="form-group">
+                        <a href="explore.html" class="btn btn-green">Search</a>
+                        <a href="#" class="btn btn-o btn-white pull-right visible-xs" id="advanced">Advanced Search <span class="fa fa-angle-up"></span></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="highlight">
+            <div class="h-title osLight">내용 색깔 변화가능</div>
+            <div class="h-text osLight"> Content!! </div>
+        </div>
+
+        <!-- 내용 시작-->
+
+        <div class="home-wrapper">
+            <div class="home-content">
+                <!--사진이랑 애니메이션 넣어야함-->
+                <!--글을 작성하면 바로 작성이 되게-->
+                <h2 class="osLight"> 좋아요 많은 순 </h2>
+                <div class="row pb40">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star-o star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star-o star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                
+                <h2 class="osLight"> 글씨체 바꾸고 싶네요 </h2>
+                <div class="row pb40">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star-o star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <a href="single.html" class="propWidget-2">
+                            <div class="fig">
+                                <img src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <img class="blur" src="/images/prop/1-1.png" alt="Modern Residence in New York">
+                                <div class="opac"></div>
+                                <div class="priceCap osLight"><span> 팀이름 </span></div>
+                                <div class="figType">공연 중</div>
+                                <h3 class="osLight"> 설명 </h3>
+                                <div class="address">위치</div>
+                                <ul class="rating">
+                                    <li><span class="fa fa-star star-1"></span></li>
+                                    <li><span class="fa fa-star star-2"></span></li>
+                                    <li><span class="fa fa-star star-3"></span></li>
+                                    <li><span class="fa fa-star star-4"></span></li>
+                                    <li><span class="fa fa-star-o star-5"></span></li>
+                                </ul>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="home-footer">
+            <div class="home-wrapper">
+                
+                <div class="copyright">내용<br> &copy; 내용</div>
+            </div>
+        </div>
+
+        <!--메인페이지에서 로그인 로그아웃 눌렀을떄-->
+        <div class="modal fade" id="signin" role="dialog" aria-labelledby="signinLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="signinLabel">로그인</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="btn-group-justified">
+                                    <a href="explore.html" class="btn btn-lg btn-facebook"><span class="fa fa-facebook pull-left"></span>페이스북으로 로그인하기</a>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="btn-group-justified">
+                                    <a href="explore.html" class="btn btn-lg btn-google"><span class="fa fa-google-plus pull-left"></span>구글아이디로 로그인하기</a>
+                                </div>
+                            </div>
+                            <div class="signOr">OR</div>
+                            <div class="form-group">
+                                <input type="text" placeholder="이메일 주소" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="비밀번호" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <div class="checkbox custom-checkbox"><label><input type="checkbox"><span class="fa fa-check"></span> 저장하기</label></div>
+                                    </div>
+                                    <div class="col-xs-6 align-right">
+                                        <p class="help-block"><a href="#" class="text-green">비밀번호를 잊으셨나요?</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="btn-group-justified">
+                                    <a href="explore.html" class="btn btn-lg btn-green">로그인</a>
+                                </div>
+                            </div>
+                            <p class="help-block">아직회원이 아니세요? <a href="#" class="modal-su text-green">회원가입</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="signup" role="dialog" aria-labelledby="signupLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="signupLabel">회원가입</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <div class="btn-group-justified">
+                                    <a href="explore.html" class="btn btn-lg btn-facebook"><span class="fa fa-facebook pull-left"></span>페이스북으로 회원가입</a>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="btn-group-justified">
+                                    <a href="explore.html" class="btn btn-lg btn-google"><span class="fa fa-google-plus pull-left"></span>구글아이디로 회원가입</a>
+                                </div>
+                            </div>
+                            <div class="signOr">OR</div>
+                            <div class="form-group">
+                                <input type="text" placeholder="성" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="이름" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="이메일 주소" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="비밀번호" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" placeholder="비밀번호 재입력" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <div class="btn-group-justified">
+                                    <a href="explore.html" class="btn btn-lg btn-green">회원가입</a>
+                                </div>
+                            </div>
+                            <p class="help-block">이미 회원이세요? <a href="#" class="modal-si text-green">로그인</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/js/jquery-2.1.1.min.js"></script>
+        <script src="/js/jquery-ui.min.js"></script>
+        <script src="/js/jquery-ui-touch-punch.js"></script>
+        <script src="/js/jquery.placeholder.js"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/jquery.touchSwipe.min.js"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=true&amp;libraries=geometry&amp;libraries=places" type="/text/javascript"></script>
+        <script src="/js/infobox.js"></script>
+        <script src="/js/jquery.visible.js"></script>
+        <script src="/js/home.js" type="/text/javascript"></script>
+    </body>
+</html>
